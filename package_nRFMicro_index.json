@@ -10,7 +10,7 @@
       },
       "platforms":[
         {
-          "name":"nRFMicro-like Boards",
+          "name":"nRF52840 Boards",
           "architecture":"nrf52",
           "version":"1.0.0",
           "category":"Contributed",
@@ -51,7 +51,7 @@
           ]
         },
         {
-          "name":"nRFMicro-like Boards",
+          "name":"nRF52840 Boards",
           "architecture":"nrf52",
           "version":"1.0.1",
           "category":"Contributed",
@@ -92,7 +92,7 @@
           ]
         },
         {
-          "name":"nRFMicro-like Boards",
+          "name":"nRF52840 Boards",
           "architecture":"nrf52",
           "version":"1.0.2",
           "category":"Contributed",
@@ -140,7 +140,7 @@
           "help":{
             "online":""
           },
-          "url":"https://github.com/KunYi/nRFMicro-Arduino-Core/releases/download/prev-v1.0.3/nRFMicro-Arduino-Core-1.0.3.tar.bz2",
+          "url":"https://github.com/KunYi/nRFMicro-Arduino-Core/releases/download/v1.0.3/nRFMicro-Arduino-Core-1.0.3.tar.bz2",
           "archiveFileName":"nRFMicro-Arduino-Core-1.0.3.tar.bz2",
           "checksum":"SHA-256:b3a8fc2e68319b7bb425aaeb3c050e38f768ddfd8681a1d412d0dea74e9d8123",
           "size":"21016154",
