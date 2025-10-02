@@ -167,3 +167,59 @@ nrfmicro.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
 nrfmicro.menu.debug.l3=Level 3 (Segger SystemView)
 nrfmicro.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
 nrfmicro.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
+
+# ----------------------------------
+# pca10056 Nordic nRF52840 DK/PDK
+# ----------------------------------
+
+pca10056.name=PCA10056
+
+# VID/PID for bootloader
+pca10056.vid.0=0x239a
+pca10056.pid.0=0x00da
+pca10056.vid.1=0x239a
+pca10056.pid.1=0x00da
+pca10056.vid.2=0x239a
+pca10056.pid.2=0x00da
+pca10056.vid.3=0x239a
+pca10056.pid.3=0x00da
+
+# Upload
+pca10056.bootloader.tool=bootburn
+pca10056.upload.tool=nrfutil
+pca10056.upload.protocol=nrfutil
+pca10056.upload.use_1200bps_touch=true
+pca10056.upload.wait_for_upload_port=true
+pca10056.upload.maximum_size=811008
+pca10056.upload.maximum_data_size=237568
+
+# Build
+pca10056.build.mcu=cortex-m4
+pca10056.build.f_cpu=64000000
+pca10056.build.board=pca10056
+pca10056.build.core=nRF5
+pca10056.build.variant=pca10056
+pca10056.build.usb_manufacturer="Nordic"
+pca10056.build.usb_product="PCA10056"
+pca10056.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
+pca10056.build.ldscript=nrf52840_s140_v7.ld
+pca10056.build.vid=0x239a
+pca10056.build.pid=0x00da
+pca10056.build.bootloader_version=0.9.2
+
+# SoftDevice Menu
+pca10056.menu.softdevice.s140v6=S140 7.3.0
+pca10056.menu.softdevice.s140v6.build.sd_name=s140
+pca10056.menu.softdevice.s140v6.build.sd_version=7.3.0
+pca10056.menu.softdevice.s140v6.build.sd_fwid=0x0123
+
+# Debug Menu
+pca10056.menu.debug.l0=Level 0 (Release)
+pca10056.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
+pca10056.menu.debug.l1=Level 1 (Error Message)
+pca10056.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
+pca10056.menu.debug.l2=Level 2 (Full Debug)
+pca10056.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
+pca10056.menu.debug.l3=Level 3 (Segger SystemView)
+pca10056.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
+pca10056.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
