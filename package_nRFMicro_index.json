@@ -12,6 +12,50 @@
         {
           "name": "nRFMicro/nRF52840 Boards",
           "architecture": "nrf52",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/KunYi/nRFMicro-Arduino-Core/releases/download/v1.0.3/nRFMicro-Arduino-Core-1.0.3.tar.bz2",
+          "archiveFileName": "nRFMicro-Arduino-Core-1.0.3.tar.bz2",
+          "checksum": "SHA-256:65b419ab7a5070d74b3080a9f089fe6a551dcb3e93cec3a577cbc8fd3d2dcd2b",
+          "size": "20351285",
+          "boards": [
+            {
+              "name": "nRFMicro"
+            },
+            {
+              "name": "SuperMini nRF52840"
+            },
+            {
+              "name": "nice!nano v2"
+            },
+            {
+              "name": "PCA10056"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "nRFMicro",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "nRFMicro",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "nRFMicro",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "nRFMicro/nRF52840 Boards",
+          "architecture": "nrf52",
           "version": "1.0.2",
           "category": "Contributed",
           "help": {
